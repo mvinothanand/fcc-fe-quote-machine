@@ -1,0 +1,62 @@
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+/* --theme-color is set at runtime. refer app.js */
+body {
+  background-color: var(--theme-color, black);
+  font-family: "Montserrat", sans-serif;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#quote-box {
+  background-color: whitesmoke;
+  width: 50vw;
+  border-radius: 0.5rem;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto auto;
+  color: var(--theme-color, black);
+}
+
+#text {
+  color: var(--theme-color, black);
+  font-size: 2.5rem;
+}
+
+#author {
+  text-align: right;
+  font-size: 2rem;
+}
+
+#action-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* color: var(--theme-color, black); */
+  font-size: 2rem;
+}
+
+.icons {
+  color: var(--theme-color, black);
+  /* color: inherit; */
+  font-size: 3rem;
+}
+
+#new-quote {
+  background-color: var(--theme-color, black);
+  color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+}

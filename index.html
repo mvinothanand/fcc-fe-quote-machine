@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Machine</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;1,100&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- quote data -->
+    <script src="./quotes.js" type="text/javascript"></script>
+
+    <!-- Themes -->
+    <script src="./themes.js"></script>
+
+    <!-- Styling -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main id="container">
+      <article id="quote-box">
+        <section id="quote-section">
+          <div>
+            <span class="icons"><i class="fas fa-quote-left"></i></span>
+            <p id="text"></p>
+          </div>
+          <p id="author"></p>
+        </section>
+        <section id="action-section">
+          <div>
+            <a
+              href="http://twitter.com/intent/tweet"
+              target="_blank"
+              id="tweet-quote"
+              ><span class="icons"
+                ><i class="fab fa-twitter-square fa-xl"></i></span
+            ></a>
+            <a href="#" target="_blank"
+              ><span class="icons"><i class="fab fa-tumblr-square"></i></span
+            ></a>
+          </div>
+          <button type="button" id="new-quote">New Quote</button>
+        </section>
+      </article>
+    </main>
+
+    <script src="./app.js" type="text/javascript"></script>
+  </body>
+</html>
