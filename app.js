@@ -7,7 +7,7 @@ $(document).ready(function () {
 const getNewQuote = () => {
   //alert("getting new quote");
   // get a random index
-  let index = Math.floor(Math.random() * 10)
+  let index = Math.floor(Math.random() * quotes.length)
 
   // get a random item
   const { id, quote, author } = quotes[index]
@@ -20,7 +20,7 @@ const getNewQuote = () => {
 }
 
 const changeTheme = () => {
-  let index = Math.floor(Math.random() * 10)
+  let index = Math.floor(Math.random() * themeColors.length)
   console.log($("body").css("--theme-color"))
   let newTheme = themeColors[index]
   // $("body").toggleClass(newTheme);
