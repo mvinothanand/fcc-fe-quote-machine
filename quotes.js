@@ -62,4 +62,10 @@ const quotes = [
       "Men, it has been well said, think in herds; it will be seen that they go mad in herds, while they only recover their senses slowly, one by one",
     author: "Charles Mackay",
   },
+  {
+    id: 12,
+    quote:
+      "One machine can do the work of fifty ordinary men. No machine can do the work of one extraordinary man.",
+    author: "Elbert Hubbard",
+  },
 ]
