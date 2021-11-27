@@ -68,4 +68,10 @@ const quotes = [
       "One machine can do the work of fifty ordinary men. No machine can do the work of one extraordinary man.",
     author: "Elbert Hubbard",
   },
+  {
+    id: 13,
+    quote:
+      "It had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. They went out and happened to things.",
+    author: "Leonardo da Vinci",
+  },
 ]
