@@ -74,4 +74,14 @@ const quotes = [
       "It had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. They went out and happened to things.",
     author: "Leonardo da Vinci",
   },
+  {
+    id: 14,
+    quote: "Pain is inevitable. Suffering is optional",
+    author: "Haruki Murakami",
+  },
+  {
+    id: 15,
+    quote: "We first make our habits, then our habits make us.",
+    author: "John Dryden",
+  },
 ]
