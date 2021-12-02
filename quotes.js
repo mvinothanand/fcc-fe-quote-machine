@@ -59,7 +59,7 @@ const quotes = [
   {
     id: 11,
     quote:
-      "Men, it has been well said, think in herds; it will be seen that they go mad in herds, while they only recover their senses slowly, one by one",
+      "Meyn, it has been well said, think in herds; it will be seen that they go mad in herds, while they only recover their senses slowly, one by one",
     author: "Charles Mackay",
   },
   {
@@ -84,4 +84,9 @@ const quotes = [
     quote: "We first make our habits, then our habits make us.",
     author: "John Dryden",
   },
+  {
+    id: 16,
+    quote: "There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.",
+    author:"Ernest Hemingway"
+  }
 ]
